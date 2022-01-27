@@ -30,3 +30,7 @@ The developed system is called **"Real-time Multi-modal Emotion Classification S
   **AMA style citation:**
 
      Nandi A., Xhafa F., Subirats L., Fort S. (2021) Real-Time Multimodal Emotion Classification System in E-Learning Context. In: Iliadis L., Macintyre J., Jayne C., Pimenidis E. (eds) Proceedings of the 22nd Engineering Applications of Neural Networks Conference. EANN 2021. Proceedings of the International Neural Networks Society, vol 3. Springer, Cham. https://doi.org//10.1007/978-3-030-80568-5_35
+
+
+
+# NOTE*: Please feel free to use the code by giving proper citation and star to this repository.
