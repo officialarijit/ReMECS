@@ -2,12 +2,31 @@
 
 - `ABSTRACT:` Emotions of learners are crucial and important in e-learning as they promote learning. To investigate the effects of emotions on improving and optimizing the outcomes of e-learning, machine learning models have been proposed in the literature. However, proposed models so far are suitable for offline mode, where data for emotion classification is stored and can be accessed boundlessly. In contrast, when data arrives in a stream, the model can see the data once and real-time response is required for real-time emotion classification. Additionally, researchers have identified that single data modality is incapable of capturing the complete insight of the learning experience and emotions. So, multi-modal data streams such as electroencephalogram (EEG), Respiratory Belt (RB), electrodermal activity data (EDA), etc., are utilized to improve the accuracy and provide deeper insights in learners’ emotion and learning experience. In this paper, we propose a Real-time Multimodal Emotion Classification System (ReMECS) based on Feed-Forward Neural Network, trained in an online fashion using the Incremental Stochastic Gradient Descent algorithm. To validate the performance of ReMECS, we have used the popular multimodal benchmark emotion classification dataset called DEAP. The results (accuracy and F1-score) show that the ReMECS can adequately classify emotions in real-time from the multimodal data stream in comparison to the state-of-the-art approaches.
 
-- **DATASET** : `DEAP dataset` is required. The experiment is conducted using the `EEG+EDA+RB measurements taken from DEAP dataset`. To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
-
-
 The developed system is called **"Real-time Multi-modal Emotion Classification System (ReMECS)"**. The ReMECS is developed using 3-layer Feed Forward Neural Network optimized with Stochastic Gradient Descent (SGD) in online mode.
 
+## DATASET
+`DEAP dataset` is required. The experiment is conducted using the `EEG+EDA+RB measurements taken from DEAP dataset`. To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
 
+## Installation 
+- Programming language
+  - `Python 3.6`
+
+- Operating system
+  - `Ubuntu 18.04 (64 bit)` 
+
+- Required packages
+  - `Keras` 
+  - `Tensorflow` &#8592; for developing the `neural network`.
+  - `Scikit-Learn` &#8592; for model's performance matrics. 
+  
+- Installation steps:
+  - Step 1: Install `Anaconda`. 
+  - Step 2: Create a `virtual environment` in Anaconnda using the given `yml` environment file.
+  - Step 3: Open `terminal`, and `activate environment`.
+  - Step 4: Run files :wink:.
+
+
+## Publication
 This work is published in **EANN 2021: Proceedings of the 22nd Engineering Applications of Neural Networks Conference**. The link to the paper "**Real-Time Multimodal Emotion Classification System in E-Learning Context**" is : https://doi.org//10.1007/978-3-030-80568-5_35.
 
   **Please cite the paper using the following bibtex:**
