@@ -6,7 +6,7 @@ The developed system is called **"Real-time Multi-modal Emotion Classification S
 
 ## DATASET
 - `DEAP dataset` is required. 
-- The experiment is conducted using the `EEG measurements taken from DEAP dataset`. 
+- The experiment is conducted using the `EEG, EDA and RB measurements taken from DEAP dataset`. 
 - To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
 
 ## DATA Rearrangement required
