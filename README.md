@@ -5,26 +5,42 @@
 The developed system is called **"Real-time Multi-modal Emotion Classification System (ReMECS)"**. The ReMECS is developed using 3-layer Feed Forward Neural Network optimized with Stochastic Gradient Descent (SGD) in online mode.
 
 ## DATASET
-`DEAP dataset` is required. The experiment is conducted using the `EEG+EDA+RB measurements taken from DEAP dataset`. To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
+- `DEAP dataset` is required. 
+- The experiment is conducted using the `EEG measurements taken from DEAP dataset`. 
+- To download `DEAP dataset` click on : https://www.eecs.qmul.ac.uk/mmv/datasets/deap/download.html
+
+## DATA Rearrangement required
+```diff
+- CAUTION
+
++ The DEAP data needs a simple rearrangement to work with the code. 
+
+@@  Check the `data_rearrangements` folder for the  DEAP  data rearrangement from the .dat or .mat file from the DEAP dataset. @@
+@@ Then follow the follwoing steps. @@
+
+```
+
 
 ## Installation 
 - Programming language
-  - `Python 3.6`
+  - `Python 3.6 or above (tested in 3.10)`
 
-- Operating system
-  - `Ubuntu 18.04 (64 bit)` 
+- Operating system (tested)
+  - `Ubuntu 18.04 (64 bit) - Intel CPU`
+  - `MAC mini M1 - ARM based CPU`
 
 - Required packages
-  - `Keras` 
-  - `Tensorflow` &#8592; for developing the `neural network`.
-  - `Scikit-Learn` &#8592; for model's performance matrics. 
+  - `Scikit-Learn and River` &#8592; for model's performance matrics.
+  - `Numpy` &#8592; for RECS's model development.
+  - `River` &#8592; for streaming model development.
+  - `Scikit-Learn` &#8592; for offline ML model development.
   
 - Installation steps:
   - Step 1: Install `Anaconda`. 
-  - Step 2: Create a `virtual environment` in Anaconnda using the given `yml` environment file.
+  - Step 2: Create a `virtual environment` in Anaconnda 
+  - Install the required packages using `pip` from the `requirements.txt` file.
   - Step 3: Open `terminal`, and `activate environment`.
   - Step 4: Run files :wink:.
-
 
 ## Publication
 This work is published in **EANN 2021: Proceedings of the 22nd Engineering Applications of Neural Networks Conference**. The link to the paper "**Real-Time Multimodal Emotion Classification System in E-Learning Context**" is : https://doi.org//10.1007/978-3-030-80568-5_35.
